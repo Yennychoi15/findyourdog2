@@ -1,0 +1,172 @@
+                    /****************elements***********/
+                    body {
+                        font-family:sans-serif;
+
+                    }
+                    p {
+                        line-height: 1.5;
+                      
+                    }
+                    main{
+                        width: 80%;
+                        height: 900px;
+                        margin: 0 auto;
+                        margin: 0 auto;
+                    }
+                    /*******************Header**********/
+                    header{
+                        width:100%;
+                        height: 15%;
+                        display: flex;
+                        justify-content: center;
+                        background-color:#fabc1d;
+                    }
+                  
+                    /***************** Nav bar********/
+                    .navbar_div {
+                        background-color: #7CD1B8;
+                        padding: 2% 0;
+                        margin-top: 4%;
+                    }
+                    .nav_ul {
+                        text-decoration: none;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                    .nav_li {
+                        list-style: none;
+                    }
+                    .nav_li a {
+                        color: black;
+                        text-decoration: none;
+                        font-weight: bold;
+                        padding:50px;
+                    }
+                    .nav_li a:hover {
+                        color: white;
+                    }
+                    .nav_li a.active {
+                        background-color: white;
+                        color: black;
+                    }
+                    /************* Home page********/
+                    #homepage {
+                        display: flex;
+                        margin: 10% auto;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .homepage-img {
+                        border-radius: 10%;
+                    }
+                    .homepage-headings{
+                        font-weight:800;
+                        text-shadow: 2px 2px #7CD1B8;
+                        font-size: 1.5rem;
+                    }
+                    /**************Gallery********/
+                    #gallery {
+                        width: 100%;
+                        margin:10% auto;
+                        display: flex;
+                        text-align: center;
+                        justify-content:center;
+                    }
+                    #gallery-heading{
+                        text-align: center;
+                        margin-top: 10%;
+                        font-weight: 800;
+                        text-shadow: 2px 2px #7CD1B8;
+                    }
+                    .gallery-photo-box{
+                        width: 30%;
+                        margin-left: 20px;
+                    }
+                                     
+                    .gallery-image {
+                        border-radius: 10%;
+                        width: 100%;
+                    }
+                 
+                    .gallery-photo-box p{
+                        padding: 1% 20%;
+                    } 
+                    /************Contact Us*********/
+                    #contact-heading {
+                        margin-top: 10%;
+                        text-align: center;
+                        font-weight: 800;
+                        text-shadow: 2px 2px #7CD1B8;
+                    }
+                    #data-table{
+                        width:50%;
+                        padding: 3% 5%;
+                        margin: 5% auto;
+                        border-radius: 5px;
+                        background-color: lightgray;
+                    }                  
+                    input[type=text],input[type=tel], select, label{
+                        width: 100%;
+                        margin: 2% auto;
+                        padding: 1%;
+                    }
+                    input[type=submit] {
+                        width: 100%;
+                        padding: 14px 20px;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        margin-top: 4%;
+                        font-size: large;
+                    }
+                    input[type=submit]:hover{
+                        background-color:grey;
+                        color: white;
+                        border:solid #7CD1B8;
+                    }
+                    #input-wrapper{
+                        text-align: center;
+                        margin: 2% auto;
+                    }
+                    #message-box{
+                        width: 100%;
+                    }
+
+                    #contact-info {
+                        width:50%;
+                        padding: 3% 5%;
+                        margin: 1% auto;
+                        border-radius: 5px;
+                    }
+                    #contact-info h2{
+                        text-align: center;
+                    }
+                    table{
+                       margin:0 auto;
+                    }
+                    .contact-icons {
+                        width: 20px;
+                        height: 20px;
+                        margin-right:10px;
+                    }
+                 /************footer*********/
+                    footer {
+                        height: 15%;
+                        text-align: center;
+                        padding: 2%;
+                        background-color: #7CD1B8;
+                        margin: 0 auto;
+                    }
+                    .footer-icon {
+                        width: 20px;
+                        height: 20px;
+                        padding: 10px 10px;
+                    }
+                 /************sitemap*********/
+                    #sitemap{
+                        width:100%;
+                        margin: 5% auto;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+                        line-height:50px;
+                    }

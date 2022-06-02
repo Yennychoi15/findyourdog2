@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../IMAGE/favicon.ico">
+
+    <title>findYourDog</title>
+</head>
+
+<body>
+    
+<main>
+    <!-----------------Logo&banner------------------------------------------------->
+    <header class="header-background">
+            <img id="logo" src="../IMAGE/logo.png" alt="Business Logo">
+            <img id="banner" src="../IMAGE/banner.png" alt="Business Banner">
+    </header>
+    <!-----------------Nav bar------------------------------------------------->
+        <nav>
+            <div class="navbar_div">
+                <ul class="nav_ul">
+                    <li class="nav_li"><a href="../index.html">HOME</a></li>
+                    <li class="nav_li"><a href="Gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav_li"><a class="active" href="contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <!--------------- contents-------------------------------------------------->
+    <h1 id="contact-heading">We'd Love to Hear From You </h1>
+    <section id="contact-info">
+        <h2>Customer Help Desk</h2>
+        <table>
+            <tr>
+                <td><img class="contact-icons" src="../IMAGE/phone.png" alt="Phone Icon"></td>
+                <td>1300 123 123</td>
+            </tr>
+            <tr>
+                <td><img class="contact-icons" src="../IMAGE/email.png" alt="Email Icon"></td>
+                <td>service@email.com.au</td>
+            </tr>
+            <tr>
+                <td><img class="contact-icons" src="../IMAGE/address.png" alt="Address Icon"></td>
+                <td>124 Street, Brisbane CBD,QLD</td>
+            </tr>
+        </table>
+    </section>
+    <section id="data-table">
+        <form action="../index.html" method="post">
+
+            <label>First Name: </label>
+            <input type="text" placeholder="Your name..">
+
+            <label>Last Name : </label>
+            <input type="text" placeholder="Your last name..">
+
+            <label>Address : </label>
+            <input type="text" name="address" placeholder="Your Address..">
+
+            <label>Contact Info : </label>
+            <input type="tel" name="phone" minlength="10" maxlength="10" placeholder="Your phone number..">
+            <div class="input-wrapper">
+                <label>I want to adapt a dog </label>
+                <input type="checkbox">
+
+                <label>I want to register breeder</label>
+                <input type="checkbox">
+
+            </div>
+            <br>
+            <br>
+            <label>Select Your Region : </label>
+            <select>
+                <option value="QLD">QLD</option>
+                <option value="NSW">NSW</option>
+                <option value="VIC">VIC</option>
+                <option value="WA">WA</option>
+                <option value="TAS">TAS</option>
+                <option value="NT">NT</option>
+                <option value="SA">SA</option>
+            </select>
+            <p><label>Message : </label></p>
+            <textarea id="message-box" rows="4"></textarea>
+            <div id="input-wrapper">
+                <label>Do You Want To Sign Up Newsletter?</label>
+
+                <input type="radio" name="signup">Yes
+                <input type="radio" name="signup">No
+
+            </div>
+
+            <div class="submit-button-wrap">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <a href="https://www.facebook.com/"><img src="../IMAGE/facebook.png" class="footer-icon"
+                alt="Facebook Icon"></a>
+        <a href="http://www.instagram.com"><img src="../IMAGE/instagram.png" class="footer-icon"
+                alt="Instagram Icon"></a>
+        <a href="http://www.twitter.com"><img src="../IMAGE/twitter.png" class="footer-icon" alt="Twitter Icon"></a>
+        <p>© Copyright2022 Yeeun Choi</p>
+        <a href="../sitemap.html">site map</a>
+    </footer>
+
+</main>
+
+</body>
+
+</html>
